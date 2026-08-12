@@ -4,7 +4,7 @@ A PHP-based POS (Point of Sale) and business management platform built for Youza
 
 ## Overview
 
-Youzarsif Sweets Management System handles the full operational flow of a sweets manufacturing and retail business — from raw ingredients and production batches, to finished products, multi-location stock transfers, point-of-sale checkout, and financial reporting.
+Youzarsif Sweets Management System handles the full operational flow of a sweets manufacturing and retail business, from raw ingredients and production batches, to finished products, multi-location stock transfers, point-of-sale checkout, and financial reporting.
 
 ## Tech Stack
 
