@@ -1,0 +1,24 @@
+# Harden session cookies: not readable by JS, not sent on cross-site requests.
+# (cookie_secure is intentionally left alone — set it via Secure when the site
+# is served over HTTPS, otherwise login would silently stop working over HTTP.)
+<IfModule php_module>
+    php_value session.cookie_httponly 1
+    php_value session.cookie_samesite Lax
+</IfModule>
+<IfModule mod_php.c>
+    php_value session.cookie_httponly 1
+    php_value session.cookie_samesite Lax
+</IfModule>
+<IfModule mod_php7.c>
+    php_value session.cookie_httponly 1
+    php_value session.cookie_samesite Lax
+</IfModule>
+<IfModule mod_php8.c>
+    php_value session.cookie_httponly 1
+    php_value session.cookie_samesite Lax
+</IfModule>
+
+# Block direct access to raw source/config files if requested by path.
+<FilesMatch "\.(sql|md)$">
+    Require all denied
+</FilesMatch>

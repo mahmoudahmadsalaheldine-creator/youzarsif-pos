@@ -1,0 +1,3 @@
+config/database.php
+config/mail.php
+storage/*.json
