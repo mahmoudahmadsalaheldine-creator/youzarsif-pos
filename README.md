@@ -88,7 +88,20 @@ Youzarsif/
 
 ## Screenshots
 
-_Coming soon, see `screenshots/` folder._
+### Login
+![Login](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Point of Sale
+![Point of Sale](screenshots/pos.png)
+
+### Ingredients & Items
+![Ingredients and Items](screenshots/items.png)
+
+### Reports & Analytics
+![Reports and Analytics](screenshots/reports.png)
 
 ## Security Notes
 
