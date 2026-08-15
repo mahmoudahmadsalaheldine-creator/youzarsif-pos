@@ -2,6 +2,8 @@
 
 A PHP-based POS (Point of Sale) and business management platform built for Youzarsif Sweets, covering factory production, stock, sales, and multi-store operations.
 
+**Live Demo:** [youzarsifsweets.encodinginnovations.tech](https://youzarsifsweets.encodinginnovations.tech/admin/dashboard.php)
+
 ## Overview
 
 Youzarsif Sweets Management System handles the full operational flow of a sweets manufacturing and retail business, from raw ingredients and production batches, to finished products, multi-location stock transfers, point-of-sale checkout, and financial reporting. It was built to replace manual/spreadsheet-based tracking with a single system that factory staff, accountants, and store cashiers all use day-to-day.
